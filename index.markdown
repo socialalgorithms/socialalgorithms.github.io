@@ -1,0 +1,108 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+title: "Yale S&DS: Social Algorithms"
+---
+
+## NOTE: Sylalbus in progress -- will be removed when syllabus is finalized.
+
+
+## Course Description
+
+With a vast amount of data now collected on our online and offline actions -- from what we buy, to where we travel, to who we interact with -- we have an unprecedented opportunity to study traditional social systems with novel precision and detail, as well the emerging challenges of studying modern social systems infused with learning algorithms. In this hands-on course, we first develop ideas from computer science and statistics to address problems in sociology, economics, political science. Beyond that, we place a particular emphasis on the study of algorithm-in-the-loop social systems. To see how these techniques are applied in practice, we discuss recent research findings in a variety of areas. Prerequisites: introductory course in applied statistics and experience coding in Python.
+
+## Instructors
+Johan Ugander, johan.ugander@ 
+
+TAs: TBD 
+
+## Schedule
+Class: TBD
+
+**Office Hours**
+
+TBD
+<!--
+* Greg: Tues 11:30a -- 1:30p (starting October 4) @ Encina W 101
+* Monte: Weds 3:00p -- 5:00p (starting October 5) @ Littlefield 103
+	* **NOTE:** Monte will hold office hours on Monday, 10/17 from 4--6pm @ Littlefield 103 instead of Wednesday to accommodate the new Assignment 1 deadline of 10/18.
+* Johan: Thurs 10:20a -- 11:15a (starting Sept 29)
+-->
+
+## Important Links
+<!-- 
+* [Canvas page](https://canvas.stanford.edu/courses/x)
+* [course Github repo](https://www.github.com/mse231/mse231_f22)
+-->
+
+## Course structure and evaluation
+The class is organized around two lectures per week. Generally speaking, the first lecture of each week will on the technology, with the second lecture of the week being focused on impacts and evaluations. Lectures are designs to be discussion-driven, espcially when we debate conclusions from the impacts and evalutations literature.
+
+There are three problem sets and a project. See the weekly schedule below for a timeline. There are no quizzes, midterms, or exams. All submissions are due on Canvas by the start of lecture on the described days. Attendance is expected but not strictly mandatory.
+
+Homework assignments are to be done in groups of 2-3, and the final project in groups of 2-5. You are strongly encouraged to form interdisciplinary teams for both the homework and project. All group members should be involved in completing each part of the homework assignments (i.e., think pair programming as opposed to divide-and-conquer). Projects are fine to divide-and-conquer.
+
+There is an ungraded “Problem Set 0” for self-evaluation, available on the course homepage. It is intended to make sure you feel comfortable coding at the level that will be assumed as prerequisite. It is very strongly encouraged (if only to clean up the coding environment on your machine). No submissions of PS0 will be accepted.
+
+There is a $30 course materials fee. There are no required textbooks or other course materials.
+
+## Grading and late policies
+* 45% Problem Sets (15% each)
+* 10% Project proposal
+* 40% Project presentation and report
+* 5% Participation and collegiality
+
+Problem sets and project proposal: your best bet is to hit all the deadlines. Failing that, the following policy is designed to prioritize completing problem sets over not completing them, submitting problem sets over not submitting them.  
+- One single delay of up to 2 days (48 hours), no questions asked. 
+- After that: 5 points deducted per day (per 24h, including weekends), up to 6 days. Limited CA availability. 
+- After that: no CA support will be provided and max grade is a 70. Must be submitted by 11:59p on the final day of semester (after that, grade is 0), and no guarantees on grading turn-around time.
+
+Project: No extensions on the project. If you need an extension, please contact me to discuss my policy for taking an incomplete for the course.
+
+In the event of a family or medical emergency, I am fundamentally a reasonable person. Please contact me as soon as possible.
+
+## High level course schedule
+
+| Week | Topic | Assignments |
+| --- | --- | --- |
+| Week 1  | Introduction	| 	PS0; PS1 Out |
+| Week 2  | Social Data; Causal inference | |
+| Week 3  | Search engines | PS1 Due; PS2 Out  |
+| Week 4  | Product recommendations						|  |
+| Week 5  | Friend recommendations | |
+| Week 6  | Feed algorithms |  PS2 Due; PS3 Out |
+| Week 7  | Content moderation | |	
+| Week 8  | Ad targetting	   | PS3 Due |
+| | Spring break | |
+| Week 9   | Misinformation	   | Project Proposal Due |	
+| Week 10 |  AI in social environments | |
+| Week 11  | Network interventions	| Project Check-ins |
+| Week 12  | Meta 2020 elections studies                 | |
+| Week 13 | Project presentations                       | | 
+| Exam week | (No exam)	 | Report Due | 
+
+<!--
+Social contagion, diffusion, social influence
+Online surveys; digital demography
+Cell phone and mobility data
+-->
+
+Assignment overview:
+
+| Problem set 1: 	| Surveys and post-stratification   | 
+| Problem set 2:  	| Network analysis of Twitter data | 
+| Problem set 3: 	| Auditing a recommender system | 
+| Project: 	| Open-ended, per proposal process |
+
+## Honor code violations
+In the event that a student is found to have violated the honor code 
+(including through Early Resolution), the penalty may include a full denial of credit for the course (not just the assignment). See the Student Conduct Penalty Code, Section J.
+
+## Accommodations:
+If you need accommodations for the class, please contact Student Accessibility Services (SAS). If you have an accommodation for the class (e.g., extra examtime, or have any other documented disability), please send me an email to let me know. Please also include the letter from SAS so that I can make arrangements accordingly.
+
+## Computing Environment
+
+A Unix-like setup is strongly recommended (e.g., Linux, OS X, or Cygwin). We will use Python 3 (JupyterLab is recommended). 
