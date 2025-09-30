@@ -19,10 +19,11 @@ Johan Ugander, johan.ugander@
 TAs: TBD 
 
 ## Schedule
-Class: TBD
+
+**Class**
+TBD
 
 **Office Hours**
-
 TBD
 
 <!--
@@ -76,7 +77,7 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 | Week 6  | Feed algorithms |  PS2 Due; PS3 Out |
 | Week 7  | Content moderation | |	
 | Week 8  | Ad targetting	   | PS3 Due |
-| | Spring break | |
+| | **Spring break** | |
 | Week 9   | Misinformation	   | Project Proposal Due |	
 | Week 10 |  AI in social environments | |
 | Week 11  | Network interventions	| Project Check-ins |
@@ -97,9 +98,10 @@ Assignment overview:
 | Problem set 3: 	| Auditing a recommender system | 
 | Project: 	| Open-ended, per proposal process |
 
+<!--
 ## Honor code violations
-In the event that a student is found to have violated the honor code 
-(including through Early Resolution), the penalty may include a full denial of credit for the course (not just the assignment). See the Student Conduct Penalty Code, Section J.
+In the event that a student is found to have violated the honor code, the penalty may include a full denial of credit for the course (not just the assignment). See the Student Conduct Penalty Code, Section J.
+-->
 
 ## Accommodations:
 If you need accommodations for the class, please contact Student Accessibility Services (SAS). If you have an accommodation for the class (e.g., extra examtime, or have any other documented disability), please send me an email to let me know. Please also include the letter from SAS so that I can make arrangements accordingly.
