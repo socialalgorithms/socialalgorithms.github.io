@@ -76,11 +76,11 @@ In the event of a family or medical emergency, I am fundamentally a reasonable p
 | Week 5  | Friend recommendations | |
 | Week 6  | Feed algorithms |  PS2 Due; PS3 Out |
 | Week 7  | Content moderation | |	
-| Week 8  | Ad targetting	   | PS3 Due |
+| Week 8  | Network interventions	   | PS3 Due |
 | | **Spring break** | |
-| Week 9   | Misinformation	   | Project Proposal Due |	
-| Week 10 |  AI in social environments | |
-| Week 11  | Network interventions	| Project Check-ins |
+| Week 9   | Ad targetting	   | Project Proposal Due |	
+| Week 10 |  Misinformation | |
+| Week 11  | AI in social environments	| Project Check-ins |
 | Week 12  | Meta 2020 elections studies                 | |
 | Week 13 | Project presentations                       | | 
 | Exam week | (No exam)	 | Report Due | 
