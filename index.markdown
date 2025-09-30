@@ -24,6 +24,7 @@ Class: TBD
 **Office Hours**
 
 TBD
+
 <!--
 * Greg: Tues 11:30a -- 1:30p (starting October 4) @ Encina W 101
 * Monte: Weds 3:00p -- 5:00p (starting October 5) @ Littlefield 103
