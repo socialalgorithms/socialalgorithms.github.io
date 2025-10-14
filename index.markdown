@@ -5,13 +5,14 @@
 layout: default
 title: "Yale S&DS: Social Algorithms"
 ---
-
+<!--
 ## NOTE: Sylalbus in progress -- will be removed when syllabus is finalized.
+-->
 
 
 ## Course Description
 
-With a vast amount of data now collected on our online and offline actions -- from what we buy, to where we travel, to who we interact with -- we have an unprecedented opportunity to study traditional social systems with novel precision and detail, as well the emerging challenges of studying modern social systems infused with learning algorithms. In this hands-on course, we first develop ideas from computer science and statistics to address problems in sociology, economics, political science. Beyond that, we place a particular emphasis on the study of algorithm-in-the-loop social systems. To see how these techniques are applied in practice, we discuss recent research findings in a variety of areas. Prerequisites: introductory course in applied statistics and experience coding in Python.
+Algorithms that learn from data play increasingly central roles within modern complex social systems. In this course, we examine the design and behavior of algorithms in such contexts, including search, content recommendation, social recommendation, feed ranking, content moderation, and more. The course has a split focus on the technical design of such algorithms, as well as the literature on theoretical and empirical evaluations, particularly in the presence of strategic behavior, network effects, and algorithmic confounding.
 
 ## Instructors
 Johan Ugander, johan.ugander@ 
@@ -48,7 +49,7 @@ Homework assignments are to be done in groups of 2-3, and the final project in g
 
 There is an ungraded “Problem Set 0” for self-evaluation, available on the course homepage. It is intended to make sure you feel comfortable coding at the level that will be assumed as prerequisite. It is very strongly encouraged (if only to clean up the coding environment on your machine). No submissions of PS0 will be accepted.
 
-There is a $30 course materials fee. There are no required textbooks or other course materials.
+Completing the assignments will require setting up accounts and using APIs that aren't always free, or where paid versions are far superior to free versions. I constantly keep an eye out for free alternatives, but also want you to train with the best tools of today. Therefore I ask students be prepared to spend approximately $30-50 as part of this class. If this would be a hardship then please reach out to me. There are no required textbooks or other course materials. 
 
 ## Grading and late policies
 * 45% Problem Sets (15% each)
@@ -82,9 +83,9 @@ I encourage you to use and sharpen your use of AI tools as part of this course. 
 | --- | --- | --- |
 | Week 1  | Introduction	| 	PS0; PS1 Out |
 | Week 2  | Social Data; Causal inference | |
-| Week 3  | Search engines | PS1 Due; PS2 Out  |
-| Week 4  | Product recommendations						|  |
-| Week 5  | Friend recommendations | |
+| Week 3  | Friend recommendations | PS1 Due; PS2 Out  |
+| Week 4  | Product recommendations	|  |
+| Week 5  | Search engines | |
 | Week 6  | Feed algorithms |  PS2 Due; PS3 Out |
 | Week 7  | Content moderation | |	
 | Week 8  | Network interventions	   | PS3 Due |
