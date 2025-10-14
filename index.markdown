@@ -37,6 +37,7 @@ TBD
 ## Important Links
 - Canvas TBD
 - Github TBD
+
 <!-- 
 * [Canvas page](https://canvas.stanford.edu/courses/x)
 * [course Github repo](https://www.github.com/mse231/mse231_f22)
