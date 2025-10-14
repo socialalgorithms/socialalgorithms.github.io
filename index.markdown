@@ -42,7 +42,7 @@ TBD
 ## Course structure and evaluation
 The class is organized around two lectures per week. Generally speaking, the first lecture of each week will on the technology, with the second lecture of the week being focused on impacts and evaluations. Lectures are designs to be discussion-driven, espcially when we debate conclusions from the impacts and evalutations literature.
 
-There are three problem sets and a project. See the weekly schedule below for a timeline. There are no quizzes, midterms, or exams. All submissions are due on Canvas by the start of lecture on the described days. Attendance is expected but not strictly mandatory.
+There are three problem sets and a project. See the weekly schedule below for a timeline. There are no quizzes, midterms, or exams. All submissions are due on Canvas by the start of lecture on the described days. Attendance is expected but not strictly mandatory. Please contact me if you expect to miss more than an occasional lecture.
 
 Homework assignments are to be done in groups of 2-3, and the final project in groups of 2-5. You are strongly encouraged to form interdisciplinary teams for both the homework and project. All group members should be involved in completing each part of the homework assignments (i.e., think pair programming as opposed to divide-and-conquer). Projects are fine to divide-and-conquer.
 
@@ -64,6 +64,17 @@ Problem sets and project proposal: your best bet is to hit all the deadlines. Fa
 Project: No extensions on the project. If you need an extension, please contact me to discuss my policy for taking an incomplete for the course.
 
 In the event of a family or medical emergency, I am fundamentally a reasonable person. Please contact me as soon as possible.
+
+## Academic integriry 
+
+Academic integrity is a core institutional value at Yale. It means, among other things, truth in presentation, diligence and precision in citing works and ideas we have used, and acknowledging our collaborations with others. 
+
+Collaboration in this course is strongly encouraged, but all collaboration must be acknowledged. Failure to disclose collaboration (including allowing someone else to represent your work as their own) will be considered a violation of academic integrity and will be reported to Yale College for arbitration.
+
+## AI Policy
+
+I encourage you to use and sharpen your use of AI tools as part of this course. The problem sets are complex and can not be solved top-to-bottom by any currently avaialble AI tools. For each problem set and for the project, I will ask you to document how you used AI, what was useful and what wasn't, so we can all learn together about best practices. Mindless use of AI (i.e., submitting work that is nonsensical or wrong in ways where you can't explain what you did) will be graded harshly. Undocumented use of AI will be considered a violation of academic integrity. 
+
 
 ## High level course schedule
 
