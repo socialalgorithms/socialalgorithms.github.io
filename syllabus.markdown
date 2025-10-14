@@ -57,7 +57,9 @@ Weak ties:
 - Jahani, Fraiberger, Bailey, Eckles (2023) "Long ties, disruptive life events, and economic prosperity," PNAS.
 
 ## Week 4 -- Product/media recommendations ##
+<!-- 
 **Tues 10/10 & Thurs 10/12**
+-->
 
 - Fleder and Hosanagar (2009) "Blockbuster culture’s next rise or fall: The impact of recommender systems on sales diversity," Management Science.
 - Dandekar, Goel, Lee (2013) "Biased assimilation, homophily, and the dynamics of polarization," PNAS.
