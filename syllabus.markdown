@@ -29,6 +29,7 @@ Surveys and post-stratification
 - Wang, Rothschild, Goel Gelman, (2015) "Forecasting elections with non-representative polls," Routledge Studies in Global Information, Politics and Society.
 - Gelman, Goel, Rivers, Rothschild (2016) "The Mythical Swing Voter," QJPS.
 - Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
+- Westwood (2025) "The potential existential threat of large language models to online survey research," PNAS. 
 
 ## Week 3 -- Networks and recommendations ##
 <!-- **Tues 10/3 & Thurs 10/5**
@@ -201,59 +202,3 @@ Ad personalization:
 **Tues 12/12    Project reports due, 5pm PT**
 -->
 
-
-<!--
-Lightening talks pitching project proposals to the class.
-**Tues 10/24  -- Social Influence, influence maximization**
-
-**Thurs 10/26  -- Social Contagion, Social Diffusion**
-
-
-## Week 6 ##
-
-**Tues 10/31 -- Modern surveys, post-stratification**
-- Wang, Rothschild, Goel Gelman, (2015) "Forecasting elections with non-representative polls," Routledge Studies in Global Information, Politics and Society.
-- Gelman, Goel, Rivers, Rothschild (2016) "The Mythical Swing Voter," QJPS.
-- Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
-
-**Thurs 11/2 Digital demography**
-- **PS2: Due**
-- **PS3: Released/introduced**
-- Zagheni, Garimella, Weber, State (2014) "Inferring international and internal migration patterns from twitter data", WWW.
-- Zagheni, Weber (2015) "Demographic research with non-representative internet data," International Journal of Manpower.
-- Tufecki (2014) "Big Questions for Social Media Big Data: Representativeness, Validity and Other Methodological Pitfalls," ICWSM.
-- Zagheni, Weber, Gummadi (2017) "Leveraging Facebook's advertising platform to monitor stocks of migrants," Population and Development Review.
-
-## Week 7 ##
-
-**Tues 11/7 -- No lecture, Election Day!**
-- **Project Proposal: Due**
-
-**Thurs 11/9  -- COVID and mobility (Guest lecture: Serina Chang)**
-- Chang et al. (2020) "Mobility network models of COVID-19 explain inequities and inform reopening," Nature.
-
-
-## Week 8 ##
-
-**Tues 11/14 -- Cell phone and mobility data**
-- de Montjoye et al. (2013) "Unique in the Crowd: The privacy bounds of human mobility," Scientific Reports. 
-- Blumenstock, Cadamuro, On (2015) "Predicting poverty and wealth from mobile phone metadata", Science.
-- Aiken et al. (2022) "Machine learning and phone data can improve targeting of humanitarian aid", Nature.
-- Barbosa et al. (2018) "Human mobility: Models and applications," Physics Reports.
-- Chen, Rohla (2018) "The effect of partisanship and political advertising on close family ties", Science.
-- Alessandretti et al. (2020) "The scales of human mobility," Nature.
-- Athey et al. (2021) "Estimating experienced racial segregation in US cities using large-scale GPS data," PNAS.
-- Coston et al. (2021) "Leveraging Administrative Data for Bias Audits: Assessing Disparate Coverage with Mobility Data for COVID-19 Policy," FAccT.
-
-**Tues 11/15 -- Culturomics**
-- Lieberman et al. (2007) "Quantifying the evolutionary dynamics of language," Nature.
-- Michel et al. (2010) "Quantitative Analysis of Culture Using Millions of Digitized Books," Science. 
-- Card et al. (2022) "Computational analysis of 140 years of US political speeches reveals more positive but increasingly polarized framing ofimmigration," PNAS.
-
-
-**Thurs 11/16 -- Data Privacy**
-- **PS3: Due**
-- Digital exhaust
-- Data privacy models
-- Differential privacy
--->
