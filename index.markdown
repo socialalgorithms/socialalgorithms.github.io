@@ -22,7 +22,7 @@ TAs: TBD
 ## Schedule
 
 **Class**
-TBD
+MW 9a-10:15a
 
 **Office Hours**
 TBD

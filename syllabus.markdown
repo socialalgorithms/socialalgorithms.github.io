@@ -118,6 +118,7 @@ Algorithm aversion:
 Birdwatch aka Community Notes:
 - Wojcik et al. (2022) "Birdwatch: Crowd Wisdom and Bridging Algorithms can Inform Understanding and Reduce the Spread of Misinformation," arXiv.
 - Allen, Martel, Rand (2022) "Birds of a feather don’t fact-check each other: Partisanship and the evaluation of news in Twitter’s Birdwatch crowdsourced fact-checking program," CHI.
+- I Slaughter, A Peytavin, J Ugander, M Saveski (2025) "Community notes reduce engagement with and diffusion of false information online," PNAS.
 
 
 ## Week 8 -- Misinformation ##
@@ -125,8 +126,7 @@ Birdwatch aka Community Notes:
 - Pennycook, Epstein, Mosleh, Arechar, Eckles, Rand (2021) "Shifting attention to accuracy can reduce misinformation online," Nature.
 - Martel, Allen, Rand (2023) "Crowds Can Effectively Identify Misinformation at Scale," Perspectives on Psychological Science. 
 - Maldita (2025) "Faster, trusted, and more useful: The impact of fact-checkers in X's Community Notes".
-- J Allen, D Watts, D Rand (2024) "Quantifying the impact of misinformation and vaccine-skeptical content on Facebook," Science.
-- I Slaughter, A Peytavin, J Ugander, M Saveski (2025) "Community notes reduce engagement with and diffusion of false information online," PNAS.
+- Allen, Watts, Rand (2024) "Quantifying the impact of misinformation and vaccine-skeptical content on Facebook," Science.
 
 ## (Spring Break) ##
 
