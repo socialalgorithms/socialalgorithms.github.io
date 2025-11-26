@@ -15,11 +15,11 @@ Introduction:
 - Abebe et al. (2020) "Roles for Computing in Social Change," FAccT.
 - Eddy (2005) "Antedisciplinary Science," PLOS Comp Bio.
 
-The second meeting with be a high-level discussion about the design of a recommendation system.
+The second meeting with be a high-level discussion about the design and evaluation of a recommendation system.
 
 ## Week 2 -- Observational data, causal inference
 
-Social science in the age "big data":
+Social science in the age of "big data":
 - Salganik (2017) Bit by Bit, [Chapter 2-4](https://www.bitbybitbook.com/en/1st-ed/preface/).
 - Goel, Hofman, Lahaie, Pennock, Watts (2010) "Predicting consumer behavior with Web search," PNAS.
 - Choi, Varian (2012) "Predicting the Present with Google Trends," The Economic Record.
@@ -121,12 +121,20 @@ Birdwatch aka Community Notes:
 - I Slaughter, A Peytavin, J Ugander, M Saveski (2025) "Community notes reduce engagement with and diffusion of false information online," PNAS.
 
 
-## Week 8 -- Misinformation ##
-
+Misinformation:
 - Pennycook, Epstein, Mosleh, Arechar, Eckles, Rand (2021) "Shifting attention to accuracy can reduce misinformation online," Nature.
 - Martel, Allen, Rand (2023) "Crowds Can Effectively Identify Misinformation at Scale," Perspectives on Psychological Science. 
 - Maldita (2025) "Faster, trusted, and more useful: The impact of fact-checkers in X's Community Notes".
 - Allen, Watts, Rand (2024) "Quantifying the impact of misinformation and vaccine-skeptical content on Facebook," Science.
+
+## Week 8 -- Holistic effects ##
+
+- Allcott et al. (2020) "The Welfare Effects of Social Media," AER.
+- Levy (2021) "Social Media, News Consumption, and Polarization: Evidence from a Field Experiment," AER.
+- Munger (2021) "<a href="https://kevinmunger.substack.com/p/facebook-is-other-people">Facebook is other people<a>"
+- Törnberg (2022) "<a href="https://www.pnas.org/doi/10.1073/pnas.2207159119">How digital media drive affective polarization through partisan sorting</a>," PNAS.
+- Allcott et al. (2024) "The effects of Facebook and Instagram on the 2020 election: A deactivation experiment," PNAS.
+- Haidt & Bail (2022-2024?) "<a href="https://docs.google.com/document/d/1vVAtMCQnz8WVxtSNQev_e1cGmY9rnY96ecYuAj6C548/edit?tab=t.0">Social Media and Political Dysfunction: A Collaborative Review</a>," Google doc. See also Haidt's other <a href="https://jonathanhaidt.com/reviews/">collaborator reviews</a>.
 
 ## (Spring Break) ##
 
@@ -186,11 +194,15 @@ Ad personalization:
 <!-- **Tues 11/28 & Thurs 11/30**
 -->
 
+- Wagner (2023) "Independence by permission," Science.
 - González-Bailón et al. (2023) "Asymmetric ideological segregation in exposure to political news on Facebook", Science.
 - Guess et al. (2023) "Reshares on social media amplify political news but do not detectably affect beliefs or opinions," Science.
 - Guess et al. (2023) "How do social media feed algorithms affect attitudes and behavior in an election campaign?," Science.
 - Nyhan et al. (2023) "Like-minded sources on Facebook are prevalent but not polarizing," Nature.
 
+Also above:
+- González-Bailón et al. (2024) "The Diffusion and Reach of (Mis)Information on Facebook During the U.S. 2020 Election," Sociological Science.
+- Allcott et al. (2024) "The effects of Facebook and Instagram on the 2020 election: A deactivation experiment," PNAS.
 
 ## Week 13 -- Project Presentations ##
 <!--
