@@ -7,7 +7,7 @@ title: "Yale Social Algorithms"
 ---
 
 
-## Week 1 -- Introduction ##
+## Week 1 -- Introduction ## (M 1/12, W 1/14)
 
 Introduction:
 - Hofman et al. (2021) "Integrating explanation and prediction in computational social science," Nature.
@@ -74,7 +74,8 @@ Weak ties:
 
 
 ## Week 5 -- Search engines ##
-<!-- **Tues 10/17 & Thurs 10/19**
+<!--
+ **Tues 10/17 & Thurs 10/19**
 -->
 
 - Chakrabarti, Frieze, Vera (2005) "The influence of search engines on preferential attachment," SODA.
@@ -86,6 +87,8 @@ Weak ties:
 - White & Horvitz (2015) "Belief Dynamics and Biases in Web Search," ACM Transactions on Information Systems.
 - Williams-Ceci, Macy, Naaman (2023) "Trustworthiness Evaluations of Search Results: The Impact of
 Rank and Misinformation," arXiv.
+- Robertson, Green, Ruck, Ognyanova, Wilson, Lazer (2023) "Users choose to engage with more partisan news than they are exposed to on Google Search," Nature.
+- Wan, Guo, Ozturan, Robertson, Lazer (2025) "Searching for Elected Officials: Google’s Prioritization of Political Information", JQD:DM.
 
 
 ## Week 6 -- Feed algorithms ##
@@ -126,6 +129,7 @@ Misinformation:
 - Martel, Allen, Rand (2023) "Crowds Can Effectively Identify Misinformation at Scale," Perspectives on Psychological Science. 
 - Maldita (2025) "Faster, trusted, and more useful: The impact of fact-checkers in X's Community Notes".
 - Allen, Watts, Rand (2024) "Quantifying the impact of misinformation and vaccine-skeptical content on Facebook," Science.
+- Vranic et al. (2025) "Global Claims: A Multilingual Dataset of Fact-Checked Claims with Veracity, Topic, and Salience Annotations," DHOW.
 
 ## Week 8 -- Holistic effects ##
 
@@ -134,6 +138,8 @@ Misinformation:
 - Munger (2021) "<a href="https://kevinmunger.substack.com/p/facebook-is-other-people">Facebook is other people<a>"
 - Törnberg (2022) "<a href="https://www.pnas.org/doi/10.1073/pnas.2207159119">How digital media drive affective polarization through partisan sorting</a>," PNAS.
 - Allcott et al. (2024) "The effects of Facebook and Instagram on the 2020 election: A deactivation experiment," PNAS.
+- Allcott et al. (2025) "The Effect of Deactivating Facebook and Instagram on Users’ Emotional State
+," NBER Working Paper.
 - Haidt & Bail (2022-2024?) "<a href="https://docs.google.com/document/d/1vVAtMCQnz8WVxtSNQev_e1cGmY9rnY96ecYuAj6C548/edit?tab=t.0">Social Media and Political Dysfunction: A Collaborative Review</a>," Google doc. See also Haidt's other <a href="https://jonathanhaidt.com/reviews/">collaborator reviews</a>.
 
 ## (Spring Break) ##
