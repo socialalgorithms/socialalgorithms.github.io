@@ -7,7 +7,7 @@ title: "Yale Social Algorithms"
 ---
 
 
-## Week 1 -- Introduction ## (M 1/12, W 1/14)
+## Week 1 -- Introduction (M 1/12, W 1/14) ##
 
 Introduction:
 - Hofman et al. (2021) "Integrating explanation and prediction in computational social science," Nature.
@@ -17,7 +17,7 @@ Introduction:
 
 The second meeting with be a high-level discussion about the design and evaluation of a recommendation system.
 
-## Week 2 -- Observational data, causal inference
+## Week 2 -- Observational data, causal inference (No Monday class, W 1/21, F 1/23) ##
 
 Social science in the age of "big data":
 - Salganik (2017) Bit by Bit, [Chapter 2-4](https://www.bitbybitbook.com/en/1st-ed/preface/).
@@ -31,7 +31,7 @@ Surveys and post-stratification
 - Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
 - Westwood (2025) "The potential existential threat of large language models to online survey research," PNAS. 
 
-## Week 3 -- Networks and recommendations ##
+## Week 3 -- Networks and recommendations (M 1/26, W 1/28) ##
 <!-- **Tues 10/3 & Thurs 10/5**
 -->
 
@@ -57,7 +57,7 @@ Weak ties:
 - Rajkumar et al. (2022) "A causal test of the strength of weak ties," Science.
 - Jahani, Fraiberger, Bailey, Eckles (2023) "Long ties, disruptive life events, and economic prosperity," PNAS.
 
-## Week 4 -- Product/media recommendations ##
+## Week 4 -- Product/media recommendations (M 2/2, W 2/4) ##
 <!-- 
 **Tues 10/10 & Thurs 10/12**
 -->
@@ -67,13 +67,11 @@ Weak ties:
 - Abdollahpouri, Burke, Mobasher (2017) "Controlling popularity bias in learning-to-rank recommendation," RecSys.
 - Chaney, Stewart, Engelhardt (2018) "How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility," RecSys.
 - Anderson et al. (2020) "Algorithmic Effects on the Diversity of Consumption on Spotify", WWW.
-- Kleinberg, Ragavan (2021) "Algorithmic monoculture and social welfare," PNAS.
-- Hardt, Jagadeesan, Mendler-Dünner (2022) "Performative Power", NeurIPS. 
 - Kleinberg, Raghavan, Mullainathan (2022) "The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization," EC.  
 - Chen et al. (2023) "Subscriptions and external links help drive resentful users to alternative and extremist YouTube channels," Science Advances.
+- Hosseinmardi et al. (2024) "Causally estimating the effect of YouTube’s recommender system using counterfactual bots", PNAS.
 
-
-## Week 5 -- Search engines ##
+## Week 5 -- Search engines (M 2/9, W 2/11) ##
 <!--
  **Tues 10/17 & Thurs 10/19**
 -->
@@ -91,10 +89,8 @@ Rank and Misinformation," arXiv.
 - Wan, Guo, Ozturan, Robertson, Lazer (2025) "Searching for Elected Officials: Google’s Prioritization of Political Information", JQD:DM.
 
 
-## Week 6 -- Feed algorithms ##
-<!--
-**Tues 10/24 & Thurs 10/26**
--->
+## Week 6 -- Feed algorithms (M 2/16, W 2/18) ##
+Guest lecture: Prof. Jamie Tucker-Foltz, Yale SOM (2/18)
 
 - Bakshy, Rosenn, Marlow, Adamic (2010) "The role of social networks in information diffusion," WWW.
 - Bernstein, Bakshy, Burke, Karrer (2013) "Quantifying the invisible audience in social networks," CHI.
@@ -111,9 +107,7 @@ Algorithm aversion:
 -  Vaccaro et al. (2017) "The Illusion of Control: Placebo Effects of Control Settings,"" CHI.
 
 
-## Week 7 -- Content moderation ##
-<!-- **Tues 10/31 & Thurs 11/2**
--->
+## Week 7 -- Content moderation (M 2/23, W 2/25) ##
 
 - Crawford & Gillespie (2016) "What is a flag for? Social media reporting tools and the vocabulary of complaint," New Media & Society.
 - Gillespie (2021) "Custodians of the Internet platforms, content moderation, and the hidden decisions that shape social media," Yale University Press.
@@ -121,7 +115,10 @@ Algorithm aversion:
 Birdwatch aka Community Notes:
 - Wojcik et al. (2022) "Birdwatch: Crowd Wisdom and Bridging Algorithms can Inform Understanding and Reduce the Spread of Misinformation," arXiv.
 - Allen, Martel, Rand (2022) "Birds of a feather don’t fact-check each other: Partisanship and the evaluation of news in Twitter’s Birdwatch crowdsourced fact-checking program," CHI.
-- I Slaughter, A Peytavin, J Ugander, M Saveski (2025) "Community notes reduce engagement with and diffusion of false information online," PNAS.
+- De, Bakker, Baxter, Saveski (2025) "Supernotes: Driving Consensus in Crowd-Sourced Fact-Checking," WWW.
+- Slaughter, Peytavin, Ugander, Saveski (2025) "Community notes reduce engagement with and diffusion of false information online," PNAS.
+- Li et al. (2025) "Scaling Human Judgment in Community Notes with LLMs," arXiv.
+- Vraga (2025) "Understanding the strengths and limitations of community-based responses to misinformation," PNAS.
 
 
 Misinformation:
@@ -131,7 +128,7 @@ Misinformation:
 - Allen, Watts, Rand (2024) "Quantifying the impact of misinformation and vaccine-skeptical content on Facebook," Science.
 - Vranic et al. (2025) "Global Claims: A Multilingual Dataset of Fact-Checked Claims with Veracity, Topic, and Salience Annotations," DHOW.
 
-## Week 8 -- Holistic effects ##
+## Week 8 -- Holistic effects (M 3/2, W 3/4) ##
 
 - Allcott et al. (2020) "The Welfare Effects of Social Media," AER.
 - Levy (2021) "Social Media, News Consumption, and Polarization: Evidence from a Field Experiment," AER.
@@ -144,10 +141,7 @@ Misinformation:
 
 ## (Spring Break) ##
 
-## Week 9 -- Network effects and interventions ##
-<!--
-**Thurs 11/9 and Tues 11/14**
--->
+## Week 9 -- Network effects and interventions (M 3/23, W 3/25) ##
 
 - Dodds, Watts (2007) "Influentials, Networks, and Public Opinion Formation," J Consumer Research.
 - Kempe, Kleinberg, Tardos (2003) "Maximizing the spread of influence through a social network," KDD.
@@ -175,7 +169,7 @@ Friendship paradox:
 - Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
 - Stewart et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
 
-## Week 10 -- Ad targetting ##
+## Week 10 -- Ad targetting (M 3/30, W 4/1) ##
 
 Tracking:
 - Eckersley (2010) "How Unique Is Your Web Browser?," PETS.
@@ -189,16 +183,15 @@ Ad personalization:
 - Ali, Sapiezynski, Bogen, Korolova, Mislove, Riek (2019) "Ad Personalization: Discrimination through optimization: How Facebook’s ad delivery can lead to skewed outcomes," CSCW.
 
 
-## Week 11 -- AI in social environments ##
+## Week 11 -- AI in social environments (M 4/6, W 4/8) ##
 
 - Lee (2016) "Learning from Tay’s introduction," Microsoft blog.
+- - Kleinberg, Raghavan (2021) "Algorithmic monoculture and social welfare," PNAS.
 - Park et al. (2022) "Social Simulacra: Creating Populated Prototypes for Social Computing Systems," UIST.
 - Park et al. (2023) "Generative Agents: Interactive Simulacra of Human Behavior," UIST.
 - Park et al. (2024) "Generative Agent Simulations of 1,000 People" arXiv.
 
-## Week 12 -- Meta 2020 Election studies ##
-<!-- **Tues 11/28 & Thurs 11/30**
--->
+## Week 12 -- Meta 2020 Election studies (M 4/13, W 4/15) ##
 
 - Wagner (2023) "Independence by permission," Science.
 - González-Bailón et al. (2023) "Asymmetric ideological segregation in exposure to political news on Facebook", Science.
@@ -210,12 +203,12 @@ Also above:
 - González-Bailón et al. (2024) "The Diffusion and Reach of (Mis)Information on Facebook During the U.S. 2020 Election," Sociological Science.
 - Allcott et al. (2024) "The effects of Facebook and Instagram on the 2020 election: A deactivation experiment," PNAS.
 
-## Week 13 -- Project Presentations ##
+## Week 13 -- Project Presentations (M 4/20, W 4/22) ##
 <!--
 **Tues 12/5 & Thurs 12/7**
 -->
 
-## Exam week -- Project Due ##
+## Exam week -- Project Due (No meetings) ##
 <!--
 **Tues 12/12    Project reports due, 5pm PT**
 -->
