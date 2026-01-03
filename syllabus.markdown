@@ -7,7 +7,7 @@ title: "Yale Social Algorithms"
 ---
 
 
-## Week 1 -- Introduction (M 1/12, W 1/14) ##
+## Week 1 -- Introduction, social data (M 1/12, W 1/14) ##
 
 Introduction:
 - Hofman et al. (2021) "Integrating explanation and prediction in computational social science," Nature.
@@ -15,15 +15,13 @@ Introduction:
 - Abebe et al. (2020) "Roles for Computing in Social Change," FAccT.
 - Eddy (2005) "Antedisciplinary Science," PLOS Comp Bio.
 
-The second meeting with be a high-level discussion about the design and evaluation of a recommendation system.
-
-## Week 2 -- Observational data, causal inference (No Monday class, W 1/21, F 1/23) ##
-
 Social science in the age of "big data":
 - Salganik (2017) Bit by Bit, [Chapter 2-4](https://www.bitbybitbook.com/en/1st-ed/preface/).
 - Goel, Hofman, Lahaie, Pennock, Watts (2010) "Predicting consumer behavior with Web search," PNAS.
 - Choi, Varian (2012) "Predicting the Present with Google Trends," The Economic Record.
 - Kleinberg, Ludwig Mullainathan, Obermeyer (2015) "Prediction Policy Problems," AER. 
+
+## Week 2 -- Observational data, causal inference (No Monday class, W 1/21, F 1/23) ##
 
 Surveys and post-stratification
 - Wang, Rothschild, Goel Gelman, (2015) "Forecasting elections with non-representative polls," Routledge Studies in Global Information, Politics and Society.
@@ -31,9 +29,9 @@ Surveys and post-stratification
 - Rosenzsweig et al. (2022) "Survey sampling in the Global South using Facebook advertisements," SocArxiv.
 - Westwood (2025) "The potential existential threat of large language models to online survey research," PNAS. 
 
+The second meeting with be a high-level discussion about the design and evaluation of a recommendation system.
+
 ## Week 3 -- Networks and recommendations (M 1/26, W 1/28) ##
-<!-- **Tues 10/3 & Thurs 10/5**
--->
 
 Diffusion cascades, true and false news:
 - Friggeri et al. (2014) "Rumor cascades," ICWSM.
@@ -99,7 +97,7 @@ Guest lecture: Prof. Jamie Tucker-Foltz, Yale SOM (2/18)
 - Bail, Argyle, Brown, Volfovsky (2018) "Exposure to opposing views on social media can increase political polarization," PNAS.
 - Huszar et al. (2021) "Algorithmic amplification of politics on Twitter", PNAS.
 - Jia et al. (2023) "Embedding Democratic Values into Social Media AIs via Societal Objective Functions," arXiv.
-- Piccardi et al. (2024) "Social Media Algorithms Can Shape Affective Polarization via Exposure to Antidemocratic Attitudes and Partisan Animosity," arXiv.
+- Piccardi et al. (2025) "Social Media Algorithms Can Shape Affective Polarization via Exposure to Antidemocratic Attitudes and Partisan Animosity," Science.
 
 Algorithm aversion:
 - B. Dietvorst, J. Simmons, C. Massey (2014) "Algorithm aversion: People erroneously avoid algorithms after seeing them err," Journal of Experimental Psychology.
@@ -129,6 +127,7 @@ Misinformation:
 - Vranic et al. (2025) "Global Claims: A Multilingual Dataset of Fact-Checked Claims with Veracity, Topic, and Salience Annotations," DHOW.
 
 ## Week 8 -- Holistic effects (M 3/2, W 3/4) ##
+Guest lecture: Dr. Stephen Ragain, Reddit (3/2)
 
 - Allcott et al. (2020) "The Welfare Effects of Social Media," AER.
 - Levy (2021) "Social Media, News Consumption, and Polarization: Evidence from a Field Experiment," AER.
@@ -169,7 +168,15 @@ Friendship paradox:
 - Lerman et al. (2016) "The Majority Illusion in Social Networks," PLOS One.
 - Stewart et al. (2019) "Information gerrymandering and undemocratic decisions," Nature. 
 
-## Week 10 -- Ad targetting (M 3/30, W 4/1) ##
+## Week 10 -- AI in social environments (M 3/30, W 4/1) ##
+
+- Lee (2016) "Learning from Tay’s introduction," Microsoft blog.
+- Kleinberg, Raghavan (2021) "Algorithmic monoculture and social welfare," PNAS.
+- Park et al. (2022) "Social Simulacra: Creating Populated Prototypes for Social Computing Systems," UIST.
+- Park et al. (2023) "Generative Agents: Interactive Simulacra of Human Behavior," UIST.
+- Park et al. (2024) "Generative Agent Simulations of 1,000 People" arXiv.
+
+## Week 11 -- Ad targetting (M 4/6, W 4/8) ##
 
 Tracking:
 - Eckersley (2010) "How Unique Is Your Web Browser?," PETS.
@@ -182,14 +189,6 @@ Ad personalization:
 - Kim, Barasz, John (2018) "Why Am I Seeing This Ad? The Effect of Ad Transparency on Ad Effectiveness," Journal of Consumer Research.
 - Ali, Sapiezynski, Bogen, Korolova, Mislove, Riek (2019) "Ad Personalization: Discrimination through optimization: How Facebook’s ad delivery can lead to skewed outcomes," CSCW.
 
-
-## Week 11 -- AI in social environments (M 4/6, W 4/8) ##
-
-- Lee (2016) "Learning from Tay’s introduction," Microsoft blog.
-- - Kleinberg, Raghavan (2021) "Algorithmic monoculture and social welfare," PNAS.
-- Park et al. (2022) "Social Simulacra: Creating Populated Prototypes for Social Computing Systems," UIST.
-- Park et al. (2023) "Generative Agents: Interactive Simulacra of Human Behavior," UIST.
-- Park et al. (2024) "Generative Agent Simulations of 1,000 People" arXiv.
 
 ## Week 12 -- Meta 2020 Election studies (M 4/13, W 4/15) ##
 
