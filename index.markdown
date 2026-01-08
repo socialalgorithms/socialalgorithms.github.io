@@ -22,7 +22,7 @@ TAs: TBD
 ## Schedule
 
 **Class**
-MW 9a-10:15a
+MW 9a-10:15a, KT 205
 
 **Office Hours**
 TBD
