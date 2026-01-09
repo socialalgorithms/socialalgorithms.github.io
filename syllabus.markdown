@@ -11,8 +11,8 @@ title: "Yale Social Algorithms"
 
 Introduction:
 - Hofman et al. (2021) [Integrating explanation and prediction in computational social science](https://www.nature.com/articles/s41586-021-03659-0), Nature.
-- Wagner et al. (2021) [Measuring algorithmically infused societies](https://dlab.epfl.ch/teaching/spring2022/cs727/papers/wagner2021measuring.pdf), Nature.
-- Abebe et al. (2020) [Roles for Computing in Social Change](https://arxiv.org/pdf/1912.04883), FAccT.
+- Wagner et al. (2021) [Measuring algorithmically infused societies](https://www.nature.com/articles/s41586-021-03666-1), Nature.
+- Abebe et al. (2020) [Roles for Computing in Social Change](https://arxiv.org/abs/1912.04883), FAccT.
 - Eddy (2005) [Antedisciplinary Science](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0010006), PLOS Comp Bio.
 
 Social science in the age of "big data":
@@ -24,7 +24,7 @@ Social science in the age of "big data":
 ## Week 2 -- Observational data, causal inference (No Monday class, W 1/21, F 1/23) ##
 
 Surveys and post-stratification
-- Wang et al. (2015) [Forecasting elections with non-representative polls](https://5harad.com/papers/forecasting-with-nonrepresentative-polls.pdf), Routledge Studies in Global Information, Politics and Society.
+- Wang et al. (2015) [Forecasting elections with non-representative polls](https://5harad.com/papers/forecasting-with-nonrepresentative-polls.pdf), International Journal of Forecasting.
 - Gelman et al. (2016) [The Mythical Swing Voter](https://5harad.com/papers/swingers.pdf), QJPS.
 - Rosenzweig et al. (2025) [Survey sampling in the Global South using Facebook advertisements](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/survey-sampling-in-the-global-south-using-facebook-advertisements/C1DE0539EB2CC5C395C18F4B9DB5613B), Political Science Research and Methods.
 - Westwood (2025) [The potential existential threat of large language models to online survey research](https://www.pnas.org/doi/10.1073/pnas.2518075122), PNAS. 
@@ -34,7 +34,7 @@ The second meeting with be a high-level discussion about the design and evaluati
 ## Week 3 -- Networks and recommendations (M 1/26, W 1/28) ##
 
 Diffusion cascades, true and false news:
-- Friggeri et al. (2014) [Rumor cascades](https://ojs.aaai.org/index.php/ICWSM/article/download/14559/14408/18077), ICWSM.
+- Friggeri et al. (2014) [Rumor cascades](https://ojs.aaai.org/index.php/ICWSM/article/view/14559), ICWSM.
 - Goel et al. (2016) [The Structural Virality of Online Diffusion](https://5harad.com/papers/twiral.pdf), Management Science.
 - Vosoughi et al. (2018) [The spread of true and false news online](https://www.science.org/doi/10.1126/science.aap9559), Science.
 - Allen et al. (2020) [Evaluating the fake news problem at the scale of the information ecosystem](https://www.science.org/doi/10.1126/sciadv.aay3539), Science Advances.
@@ -79,17 +79,17 @@ Weak ties:
 - Fortunato et al. (2006) [Topical interests and the mitigation of search engine bias](https://www.pnas.org/doi/10.1073/pnas.0605525103), PNAS.
 - Goel et al. (2010) [Anatomy of the long tail: ordinary people with extraordinary tastes](https://dl.acm.org/doi/10.1145/1718487.1718513), WSDM.
 - Brynjolfsson, Hu, Simester (2011) [Goodbye pareto principle, hello long tail: The effect of search costs on the concentration of product sales](https://pubsonline.informs.org/doi/10.1287/mnsc.1110.1371), Management Science.
-- White, Horvitz (2013) [Cyberchondria: Studies of the escalation of medical concerns in Web search](https://dl.acm.org/doi/10.1145/2508544.2508545), ACM Transactions on Information Systems.
-- White, Horvitz (2015) [Belief Dynamics and Biases in Web Search](https://dl.acm.org/doi/10.1145/2414486.2414489), ACM Transactions on Information Systems.
-- Williams-Ceci, Macy, Naaman (2023) [Trustworthiness Evaluations of Search Results: The Impact of Rank and Misinformation](https://arxiv.org/abs/2304.09725), arXiv.
-- Robertson et al. (2023) [Users choose to engage with more partisan news than they are exposed to on Google Search](https://www.nature.com/articles/s41586-023-06297-w), Nature.
-- Wan et al. (2025) [Searching for Elected Officials: Google's Prioritization of Political Information](https://journalqd.org/article/view/5677), JQD:DM.
+- White, Horvitz (2009) [Cyberchondria: Studies of the escalation of medical concerns in Web search](https://dl.acm.org/doi/10.1145/1629096.1629101), ACM Transactions on Information Systems.
+- White, Horvitz (2015) [Belief Dynamics and Biases in Web Search](https://dl.acm.org/doi/10.1145/2746229), ACM Transactions on Information Systems.
+- Williams-Ceci, Macy, Naaman (2023) [Trustworthiness Evaluations of Search Results: The Impact of Rank and Misinformation](https://arxiv.org/abs/2309.11029), arXiv.
+- Robertson et al. (2023) [Users choose to engage with more partisan news than they are exposed to on Google Search](https://www.nature.com/articles/s41586-023-06078-5), Nature.
+- Wan et al. (2025) [Searching for Elected Officials: Google's Prioritization of Political Information](https://journalqd.org/article/view/9484), JQD:DM.
 
 
 ## Week 6 -- Feed algorithms (M 2/16, W 2/18) ##
 Guest lecture: Prof. Jamie Tucker-Foltz, Yale SOM (2/18)
 
-- Bakshy et al. (2010) [The role of social networks in information diffusion](https://dl.acm.org/doi/10.1145/1772690.1772754), WWW.
+- Bakshy et al. (2012) [The role of social networks in information diffusion](https://dl.acm.org/doi/10.1145/2187836.2187907), WWW.
 - Bernstein et al. (2013) [Quantifying the invisible audience in social networks](https://dl.acm.org/doi/10.1145/2470654.2466181), CHI.
 - Bakshy, Messing, Adamic (2015) [Exposure to ideologically diverse news and opinion on Facebook](https://www.science.org/doi/10.1126/science.aaa1160), Science.
 - Flaxman, Goel, Rao (2016) [Filter Bubbles, Echo Chambers, and Online News Consumption](https://academic.oup.com/poq/article/80/S1/298/2223402), Public Opinion Quarterly.
@@ -113,9 +113,9 @@ Birdwatch aka Community Notes:
 - Wojcik et al. (2022) [Birdwatch: Crowd Wisdom and Bridging Algorithms can Inform Understanding and Reduce the Spread of Misinformation](https://arxiv.org/abs/2210.15723), arXiv.
 - Allen, Martel, Rand (2022) [Birds of a feather don't fact-check each other: Partisanship and the evaluation of news in Twitter's Birdwatch crowdsourced fact-checking program](https://dl.acm.org/doi/10.1145/3491102.3502040), CHI.
 - De et al. (2025) [Supernotes: Driving Consensus in Crowd-Sourced Fact-Checking](https://dl.acm.org/doi/10.1145/3589334.3645358), WWW.
-- Slaughter et al. (2025) [Community notes reduce engagement with and diffusion of false information online](https://www.pnas.org/doi/10.1073/pnas.2414355122), PNAS.
+- Slaughter et al. (2025) [Community notes reduce engagement with and diffusion of false information online](https://www.pnas.org/doi/10.1073/pnas.2503413122), PNAS.
 - Li et al. (2025) [Scaling Human Judgment in Community Notes with LLMs](https://tsjournal.org/index.php/jots/article/view/115), Journal of Online Trust and Safety.
-- Vraga (2025) [Understanding the strengths and limitations of community-based responses to misinformation](https://www.pnas.org/doi/10.1073/pnas.2421963122), PNAS.
+- Vraga (2025) [Understanding the strengths and limitations of community-based responses to misinformation](https://www.pnas.org/doi/10.1073/pnas.2524004122), PNAS.
 
 
 Misinformation:
@@ -133,7 +133,7 @@ Guest lecture: Dr. Stephen Ragain, Reddit (3/2)
 - Munger (2021) [Facebook is other people](https://www.cambridge.org/core/elements/generation-like/39B2C99D8D43F6EB9EE8314C28AE0F38).
 - Törnberg (2022) [How digital media drive affective polarization through partisan sorting](https://www.pnas.org/doi/10.1073/pnas.2207159119), PNAS.
 - Allcott et al. (2024) [The effects of Facebook and Instagram on the 2020 election: A deactivation experiment](https://www.pnas.org/doi/10.1073/pnas.2321584121), PNAS.
-- Allcott et al. (2025) [The Effect of Deactivating Facebook and Instagram on Users' Emotional State](https://www.nber.org/papers/w33431), NBER Working Paper.
+- Allcott et al. (2025) [The Effect of Deactivating Facebook and Instagram on Users' Emotional State](https://www.nber.org/papers/w33697), NBER Working Paper.
 - Haidt, Bail (2022-2024?) [Social Media and Political Dysfunction: A Collaborative Review](https://docs.google.com/document/d/1w-poN1JRG7vyPFzt-w3N4c8SzYE1a9fLEb4V8JY5_m8/edit), Google doc.
 
 ## (Spring Break) ##
@@ -157,7 +157,7 @@ Nomination targetting:
 - Pastor-Satorras, Vespignani (2002) [Immunization of complex networks](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.65.036104), PRE.
 - Christakis, Fowler (2010) [Social network sensors for early detection of contagious outbreaks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0012948), PLOS One.
 - Kim et al. (2015) [Social network targeting to maximise population behaviour change: a cluster randomised controlled trial](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(15)60095-2/fulltext), The Lancet.
-- Chin, Eckles, Ugander (2021) [Evaluating stochastic seeding strategies in networks](https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3634), Management Science.
+- Chin, Eckles, Ugander (2022) [Evaluating stochastic seeding strategies in networks](https://pubsonline.informs.org/doi/10.1287/mnsc.2021.3963), Management Science.
 
 Friendship paradox:
 - Feld (1991) [Why your friends have more friends than you do](https://www.jstor.org/stable/2781907), American Journal of Sociology.
@@ -182,7 +182,7 @@ Tracking:
 - Englehardt, Narayanan (2016) [Online Tracking: A 1-million-site Measurement and Analysis](https://dl.acm.org/doi/10.1145/2976749.2978313), SIGSAC.
 
 Ad personalization:
-- Korolova (2011) [Privacy Violations Using Microtargeted Ads: A Case Study](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/599), Journal of Privacy and Confidentiality.
+- Korolova (2011) [Privacy Violations Using Microtargeted Ads: A Case Study](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/594), Journal of Privacy and Confidentiality.
 - Venkatadri et al. (2018) [Privacy Risks with Facebook's PII-Based Targeting: Auditing a Data Broker's Advertising Interface](https://ieeexplore.ieee.org/document/8406613), IEEE Security and Privacy.
 - Kim, Barasz, John (2018) [Why Am I Seeing This Ad? The Effect of Ad Transparency on Ad Effectiveness](https://academic.oup.com/jcr/article/45/5/906/5068060), Journal of Consumer Research.
 - Ali et al. (2019) [Discrimination through optimization: How Facebook's ad delivery can lead to skewed outcomes](https://dl.acm.org/doi/10.1145/3359301), CSCW.
