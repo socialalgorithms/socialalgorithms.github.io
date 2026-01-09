@@ -44,11 +44,11 @@ TBD
 -->
 
 ## Course structure and evaluation
-The class is organized around two lectures per week. Generally speaking, the first lecture of each week will on the technology, with the second lecture of the week being focused on impacts and evaluations. Lectures are designs to be discussion-driven, espcially when we debate conclusions from the impacts and evalutations literature.
+The class is organized around two lectures per week. Generally speaking, the first lecture of each week will on the technology, with the second lecture of the week being focused on impacts and evaluations. Lectures are designed to be discussion-driven, especially when we debate conclusions from the impacts and evaluations literature.
 
 There are three problem sets and a project. See the weekly schedule below for a timeline. There are no quizzes, midterms, or exams. All submissions are due on Canvas by the start of lecture on the described days. Attendance is expected but not strictly mandatory. Please contact me if you expect to miss more than an occasional lecture.
 
-Homework assignments are to be done in groups of 2-3, and the final project in groups of 2-5. You are strongly encouraged to form interdisciplinary teams for both the homework and project. All group members should be involved in completing each part of the homework assignments (i.e., think pair programming as opposed to divide-and-conquer). Projects are fine to divide-and-conquer.
+Homework assignments are to be done in groups of 2-3, and the final project in groups of 2-5. All group members should be involved in completing each part of the homework assignments (i.e., think pair programming as opposed to divide-and-conquer). Projects are fine to divide-and-conquer.
 
 There is an ungraded “Problem Set 0” for self-evaluation, available on the course homepage. It is intended to make sure you feel comfortable coding at the level that will be assumed as prerequisite. It is very strongly encouraged (if only to clean up the coding environment on your machine). No submissions of PS0 will be accepted.
 
@@ -69,7 +69,7 @@ Project: No extensions on the project. If you need an extension, please contact 
 
 In the event of a family or medical emergency, I am fundamentally a reasonable person. Please contact me as soon as possible.
 
-## Academic integriry 
+## Academic integrity 
 
 Academic integrity is a core institutional value at Yale. It means, among other things, truth in presentation, diligence and precision in citing works and ideas we have used, and acknowledging our collaborations with others. 
 
@@ -77,7 +77,7 @@ Collaboration in this course is strongly encouraged, but all collaboration must 
 
 ## AI Policy
 
-I encourage you to use and sharpen your use of AI tools as part of this course. The problem sets are complex and can not be solved top-to-bottom by any currently avaialble AI tools. For each problem set and for the project, I will ask you to document how you used AI, what was useful and what wasn't, so we can all learn together about best practices. Mindless use of AI (i.e., submitting work that is nonsensical or wrong in ways where you can't explain what you did) will be graded harshly. Undocumented use of AI will be considered a violation of academic integrity. 
+I encourage you to use and sharpen your use of AI tools as part of this course. For each problem set and for the project, I will ask you to document how you used AI, what was useful and what wasn't, so we can all learn together about best practices. Mindless use of AI (i.e., submitting work that is nonsensical or wrong in ways where you can't explain what you did) will be graded harshly. Undocumented use of AI will be considered a violation of academic integrity. 
 
 
 ## High level course schedule
@@ -118,9 +118,15 @@ Assignment overview:
 In the event that a student is found to have violated the honor code, the penalty may include a full denial of credit for the course (not just the assignment). See the Student Conduct Penalty Code, Section J.
 -->
 
-## Accommodations:
-If you need accommodations for the class, please contact Student Accessibility Services (SAS). If you have an accommodation for the class (e.g., extra examtime, or have any other documented disability), please send me an email to let me know. Please also include the letter from SAS so that I can make arrangements accordingly.
+## Accommodations
+
+Yale University is committed to providing equal access to its academic programs. Students who may need an academic accommodation based on the impact of a disability should contact **Student Accessibility Services (SAS)** to initiate the process. SAS will review appropriate documentation, determine eligibility, and issue an official accommodation letter.
+
+If you are approved for accommodations for this course (e.g., extended exam time or other adjustments), please email me as early as possible and include your accommodation letter from SAS so that we can make appropriate arrangements in a timely manner. Early communication is important to ensure that accommodations can be implemented effectively.
+
+For more information, please visit: <https://sas.yale.edu>
+
 
 ## Computing Environment
 
-A Unix-like setup is strongly recommended (e.g., Linux, OS X, or Cygwin). We will use Python 3 (JupyterLab is recommended). 
+A Unix-like setup is strongly recommended (e.g., Linux, Mac OS X, or Cygwin). We will use Python 3 (JupyterLab is recommended). 
