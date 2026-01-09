@@ -15,9 +15,9 @@ title: "Yale S&DS: Social Algorithms"
 Algorithms that learn from data play increasingly central roles within modern complex social systems. In this course, we examine the design and behavior of algorithms in such contexts, including search, content recommendation, social recommendation, feed ranking, content moderation, and more. The course has a split focus on the technical design of such algorithms, as well as the literature on theoretical and empirical evaluations, particularly in the presence of strategic behavior, network effects, and algorithmic confounding.
 
 ## Instructors
-Johan Ugander, johan.ugander@ 
+Instructor: Johan Ugander (johan.ugander@)
 
-TAs: TBD 
+TF: Zhongren Chen (zhongren.chen@)
 
 ## Schedule
 
@@ -48,7 +48,7 @@ The class is organized around two lectures per week. Generally speaking, the fir
 
 There are three problem sets and a project. See the weekly schedule below for a timeline. There are no quizzes, midterms, or exams. All submissions are due on Canvas by the start of lecture on the described days. Attendance is expected but not strictly mandatory. Please contact me if you expect to miss more than an occasional lecture.
 
-Homework assignments are to be done in groups of 2-3, and the final project in groups of 2-5. All group members should be involved in completing each part of the homework assignments (i.e., think pair programming as opposed to divide-and-conquer). Projects are fine to divide-and-conquer.
+Homework assignments are to be done in groups of 1-3, and the final project in groups of 2-5. All group members should be involved in completing each part of the homework assignments (i.e., think pair programming as opposed to divide-and-conquer). Projects are fine to divide-and-conquer.
 
 There is an ungraded “Problem Set 0” for self-evaluation, available on the course homepage. It is intended to make sure you feel comfortable coding at the level that will be assumed as prerequisite. It is very strongly encouraged (if only to clean up the coding environment on your machine). No submissions of PS0 will be accepted.
 
@@ -107,16 +107,15 @@ Cell phone and mobility data
 -->
 
 Assignment overview:
+| | Topic | Release | Due |
+| Problem set 1: 	| Surveys and post-stratification   | W 1/14 | M 1/26 | 
+| Problem set 2:  	| Network analysis of social media data | W 1/28 | M 2/16  | 
+| Problem set 3: 	| Social AI | W 2/18 | M 3/2 | 
+| Project proposal: | Short write-up | | W 3/25 | 
+| Project check-in: | Meetings with Prof. Ugander | | 4/6-10 |
+| Project presentation: | (in class) | | M 4/20, W 4/22 |
+| Project report: | written | | M 4/29 |
 
-| Problem set 1: 	| Surveys and post-stratification   | 
-| Problem set 2:  	| Network analysis of Twitter data | 
-| Problem set 3: 	| Auditing a recommender system | 
-| Project: 	| Open-ended, per proposal process |
-
-<!--
-## Honor code violations
-In the event that a student is found to have violated the honor code, the penalty may include a full denial of credit for the course (not just the assignment). See the Student Conduct Penalty Code, Section J.
--->
 
 ## Accommodations
 
