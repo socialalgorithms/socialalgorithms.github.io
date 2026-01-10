@@ -162,7 +162,7 @@ Nomination targetting:
 Friendship paradox:
 - Feld (1991) [Why your friends have more friends than you do](https://www.jstor.org/stable/2781907), American Journal of Sociology.
 - Ugander et al. (2011) [The Anatomy of the Facebook Social Graph](https://arxiv.org/abs/1111.4503), arXiv.
-- Kooti, Hodas, Lerman (2014) [Network Weirdness: Exploring the Origins of Network Paradoxes](https://ojs.aaai.org/index.php/ICWSM/article/view/14525), ICWSM.
+- Kooti, Hodas, Lerman (2014) [Network Weirdness: Exploring the Origins of Network Paradoxes](https://doi.org/10.1609/icwsm.v8i1.14543), ICWSM.
 - Lerman et al. (2016) [The Majority Illusion in Social Networks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147617), PLOS One.
 - Stewart et al. (2019) [Information gerrymandering and undemocratic decisions](https://www.nature.com/articles/s41586-019-1507-6), Nature. 
 
@@ -183,7 +183,7 @@ Tracking:
 
 Ad personalization:
 - Korolova (2011) [Privacy Violations Using Microtargeted Ads: A Case Study](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/594), Journal of Privacy and Confidentiality.
-- Venkatadri et al. (2018) [Privacy Risks with Facebook's PII-Based Targeting: Auditing a Data Broker's Advertising Interface](https://ieeexplore.ieee.org/document/8406613), IEEE Security and Privacy.
+- Venkatadri et al. (2018) [Privacy Risks with Facebook's PII-Based Targeting: Auditing a Data Broker's Advertising Interface](https://ieeexplore.ieee.org/document/8418598), IEEE Security and Privacy.
 - Kim, Barasz, John (2018) [Why Am I Seeing This Ad? The Effect of Ad Transparency on Ad Effectiveness](https://academic.oup.com/jcr/article/45/5/906/5068060), Journal of Consumer Research.
 - Ali et al. (2019) [Discrimination through optimization: How Facebook's ad delivery can lead to skewed outcomes](https://dl.acm.org/doi/10.1145/3359301), CSCW.
 
@@ -197,7 +197,7 @@ Ad personalization:
 - Nyhan et al. (2023) [Like-minded sources on Facebook are prevalent but not polarizing](https://www.nature.com/articles/s41586-023-06297-w), Nature.
 
 Also above:
-- González-Bailón et al. (2024) [The Diffusion and Reach of (Mis)Information on Facebook During the U.S. 2020 Election](https://sociologicalscience.com/articles-v11-22-545/), Sociological Science.
+- González-Bailón et al. (2024) [The Diffusion and Reach of (Mis)Information on Facebook During the U.S. 2020 Election](https://sociologicalscience.com/articles-v11-41-1124/), Sociological Science.
 - Allcott et al. (2024) [The effects of Facebook and Instagram on the 2020 election: A deactivation experiment](https://www.pnas.org/doi/10.1073/pnas.2321584121), PNAS.
 
 ## Week 13 -- Project Presentations (M 4/20, W 4/22) ##
