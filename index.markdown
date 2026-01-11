@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: "Yale S&DS: Social Algorithms"
+title: "Yale S&DS 3350/5350: Social Algorithms"
 ---
 <!--
 ## NOTE: Sylalbus in progress -- will be removed when syllabus is finalized.
@@ -25,7 +25,8 @@ TF: Zhongren Chen (zhongren.chen@)
 MW 9a-10:15a, KT 205
 
 **Office Hours**
-TBD
+Johan: W 10:30-11:30 KT1325
+Zhongren: TBD
 
 <!--
 * Greg: Tues 11:30a -- 1:30p (starting October 4) @ Encina W 101
