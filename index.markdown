@@ -35,7 +35,7 @@ TBD
 -->
 
 ## Important Links
-- Canvas TBD
+- [Canvas](https://yale.instructure.com/courses/116525) 
 - Github TBD
 
 <!--
