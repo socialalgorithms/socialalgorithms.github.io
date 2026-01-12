@@ -110,9 +110,9 @@ Cell phone and mobility data
 Assignment overview:
 
 | . | Topic | Release | Due |
-| | --- | --- | --- |
+| --- | --- | --- | --- |
 | Problem set 1: 	| Surveys and post-stratification   | W 1/14 | M 1/26 | 
-| Problem set 2:  	| Network analysis of social media data | W 1/28 | M 2/16  | 
+| Problem set 2:  	| Network analysis of social media data | W 1/28 | M 2/16 | 
 | Problem set 3: 	| Social AI | W 2/18 | M 3/2 | 
 | Project proposal: | Short write-up | | W 3/25 | 
 | Project check-in: | Meetings with Prof. Ugander | | 4/6-10 |
