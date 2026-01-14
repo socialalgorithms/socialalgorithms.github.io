@@ -25,7 +25,7 @@ TF: Zhongren Chen (zhongren.chen@)
 MW 9a-10:15a, KT 205
 
 **Office Hours**
-Johan: W 10:30-11:30 KT1325
+Johan: W 10:30-11:30 KT 1335
 Zhongren: M 1:00-3:00 Location TBD
 
 <!--
