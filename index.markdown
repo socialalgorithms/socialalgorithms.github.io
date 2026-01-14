@@ -15,7 +15,7 @@ title: "Yale S&DS 3350/5350: Social Algorithms"
 Algorithms that learn from data play increasingly central roles within modern complex social systems. In this course, we examine the design and behavior of algorithms in such contexts, including search, content recommendation, social recommendation, feed ranking, content moderation, and more. The course has a split focus on the technical design of such algorithms, as well as the literature on theoretical and empirical evaluations, particularly in the presence of strategic behavior, network effects, and algorithmic confounding.
 
 ## Instructors
-Instructor: Johan Ugander (johan.ugander@)
+Instructor: Prof. Johan Ugander (johan.ugander@)
 
 TF: Zhongren Chen (zhongren.chen@)
 
