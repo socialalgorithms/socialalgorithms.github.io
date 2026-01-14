@@ -3,7 +3,7 @@ layout: default
 ---
 # Assignment 1
 
-**Due Date: TBD**
+**Due Date: Monday 1/26 11:59p**
 
 This assignment is divided into two independent parts, as described below.
 
@@ -40,7 +40,7 @@ Ensure that you preprocess the data properly before training; you'll find the cl
 
 **Step 5: Post-stratification I on LLM Data** Repeat the above step (Step 4), but this time using the LLM data `gpt_comma_survey.csv` obtained in Step 2. 
 
-**Step 6: Census Data Gathering.** Your survey population does not necessarily match the population demographics of the United States. In order to post-stratify the data on age, sex, income, education, and location, you'll need to gather this information from [US Census MDAT](https://data.census.gov/mdat). Using the 2024 vintage, construct a table consisting of the relevant categories for your dataset (age, sex, etc.). The MDAT web interface allows you to bin variables, so you can construct the categories which are relevant for the survey data. Make sure to gather "counts". Having done so, navigate to the Download tab and click the `COPY API TABULATE QUERY` button. (Note: it might also be convenient to bookmark the `COPY BOOKMARK` so that you don't have to redo all of your earlier work to fix a mistake.) Include this URL in your report.
+**Step 6: Census Data Gathering.** Your survey population does not match the population demographics of the United States. In order to post-stratify the data on age, sex, income, education, and location, you'll need to gather this information from [US Census MDAT](https://data.census.gov/mdat). Using the 2024 vintage of the "ACS 1-Year Estimates Public Use Microdata Sample", construct a table consisting of the relevant categories for your dataset (age, sex, etc). The MDAT web interface allows you to bin variables (e.g., make the right age bins), so you can construct the categories which correspond to the survey data. Make sure to gather "counts". Having done so, navigate to the Download tab and click the `COPY API TABULATE QUERY` button. (Note: it might also be convenient to bookmark the `COPY BOOKMARK` so that you don't have to redo all of your earlier work to fix a mistake.) Include this URL in your report.
 
 Open the `API TABULATE QUERY` url and save the resulting `.json` file. You will need to construct the mapping between the data labels in the `.json` file and the original categories you selected from the MDAT interface. This can be done manually (if you find an automated way to retrieve this mapping, let us know and we'll update this assignment). Load the census counts.
 
