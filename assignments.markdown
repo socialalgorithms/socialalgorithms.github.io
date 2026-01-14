@@ -13,9 +13,9 @@ You should use Python 3. This is a zero point assignment. You should only need a
 ## Assignment 1
 
 **Due Date: Monday 1/26  11:59p**
-<!--
+
 [Assignment details](assignment1)
--->
+
 
 ## Assignment 2
 
