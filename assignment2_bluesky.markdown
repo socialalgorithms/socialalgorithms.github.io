@@ -10,25 +10,25 @@ layout: default
 In this assignment, you'll investigate *[homophily](https://en.wikipedia.org/wiki/Homophily)* — the tendency for people to associate with similar others — on the Bluesky social network. You'll collect data using Bluesky's public API, analyze what senators see in their feeds, and measure whether reply patterns exhibit gender homophily.
 
 The assignment has two parts:
-- **Part A**: Feed Analysis — Examine what U.S. senators see when they open Bluesky, and make follow recommendations for fellow senators.
-- **Part B**: Reply Homophily — Measure gender patterns in who replies to senators
+- **Part I**: Feed Analysis — Examine what U.S. senators see when they open Bluesky, and make follow recommendations for fellow senators.
+- **Part II**: Reply Homophily — Measure gender patterns in who replies to senators
 
 ## Background
 
 Bluesky is a social media platform built on the open AT Protocol. Unlike Twitter/X, Bluesky's API is publicly accessible without authentication for read-only operations, making it valuable for studying social network dynamics.
 
-We focus on U.S. Senators with verified Bluesky accounts. As of January 2025, **42 senators have verified accounts: 41 Democrats and 1 Independent (Bernie Sanders).** No Republican senators have verified Bluesky accounts. This partisan skew is itself a phenomenon worth reflecting on (see Part III).
+We focus on U.S. Senators with verified Bluesky accounts. As of January 2026, **42 senators have verified accounts: 41 Democrats and 1 Independent (Bernie Sanders).** No Republican senators have verified Bluesky accounts. This partisan skew is itself a phenomenon worth reflecting on (see Part III).
 
 ## Provided Materials
 
 Download all materials from the course website:
 
-- [`senators_bluesky.csv`](assets/problemset2/senators_bluesky.csv) — 42 verified senator accounts (columns: name, handle, party, state, gender)
-- [`bluesky_helpers.py`](assets/problemset2/bluesky_helpers.py) — Helper functions for API access (you'll implement gender inference)
-- [`female_names.tsv.gz`](assets/problemset2/female_names.tsv.gz) — SSA baby name data for female names
-- [`male_names.tsv.gz`](assets/problemset2/male_names.tsv.gz) — SSA baby name data for male names
+- [`senators_bluesky.csv`](assets/assignment2/senators_bluesky.csv) — 42 verified senator accounts (columns: name, handle, party, state, gender)
+- [`bluesky_helpers.py`](assets/assignment2/bluesky_helpers.py) — Helper functions and code scaffolding
+- [`female_names.tsv.gz`](assets/assignment2/female_names.tsv.gz) — SSA baby name data for female names
+- [`male_names.tsv.gz`](assets/assignment2/male_names.tsv.gz) — SSA baby name data for male names
 
-The name files contain historical Social Security Administration baby name registration data in tab-separated format (`name \t year \t count`). These are useful for inferring gender from first names based on historical naming patterns.
+The name files contain historical Social Security Administration baby name registration data in tab-separated format (`name\tyear\tcount`). These are useful for inferring gender from first names based on historical naming patterns.
 
 ---
 
@@ -45,7 +45,7 @@ Write code to collect the feed for each senator:
 3. Combine these posts into a single reverse-chronological feed for each senator
 4. Save the data as JSON (one file per senator, or one combined file)
 
-Note: You'll need to track both the follow relationships (for Jaccard similarity) and the post counts (for weighted Jaccard). Consider saving follows data and feed data separately.
+Note: Look ahead at Section I.3. You'll need to track both the follow relationships and the posts (for computing Jaccard similarities). Consider saving follow data and feed data separately.
 
 **API endpoints** (see `bluesky_helpers.py` for wrapper functions):
 - `app.bsky.graph.getFollows` — list of followed accounts (paginated, up to 100 per request)
@@ -53,7 +53,8 @@ Note: You'll need to track both the follow relationships (for Jaccard similarity
 
 For API documentation see: [Bluesky API documentation](https://docs.bsky.app/docs/category/http-reference)
 
-**Rate limiting**: Add `time.sleep(0.1)` between requests. The public API allows ~3,000 requests per 5 minutes.
+**Rate limits**: Add `time.sleep(0.1)` between requests. The public API allows ~3,000 requests per 5 minutes.
+
 
 ### I.2 "Senators You May Know" Recommendations
 
@@ -73,7 +74,7 @@ For each senator:
 2. For each non-followed senator, compute the recommendation score (number of followed senators who follow them)
 3. Report the **top 3 recommendations** with their scores
 
-If a senator already follows all other senators, note this in your output.
+If a senator already follows all other senators, note this in your output. If a senator follows no other senators, note this in your output.
 
 #### Output
 
@@ -88,16 +89,16 @@ Generate a **table** in your report (programmatically, not by hand) with the fol
 The number in parentheses is the recommendation score (mutual follows count).
 
 Additionally, identify:
-- Which senators (if any) **follow all** other senators in the dataset
-- Which senators (if any) are **followed by all** other senators in the dataset
+- Which senators (if any) **follow all** or **follow zero** other senators in the dataset
+- Which senators (if any) are **followed by all** or **followed by zero** other senators in the dataset
 
-(Note: Patterns in recommendations, network centrality, and disconnected senators will be discussed in the I.4 Reflection Questions below.)
+(Note: patterns in recommendations, network centrality, and disconnected senators are the subject of questions in Section I.4 below.)
 
 ### I.3 Echo Chamber Analysis
 
 Examine the degree to which senators' feeds overlap using two complementary measures:
 
-#### Unweighted Jaccard Similarity (Account-Level)
+#### Follow Jaccard Similarity
 
 For each pair of senators, compute the Jaccard similarity of the accounts they follow (all accounts, not just senators):
 
@@ -107,33 +108,21 @@ Jaccard(A, B) = |follows_A ∩ follows_B| / |follows_A ∪ follows_B|
 
 This measures overlap in terms of *who* the senators follow, treating all followed accounts equally regardless of how active they are.
 
-#### Weighted Jaccard Similarity (Post-Volume Weighted)
+#### Post Jaccard Similarity
 
-The unweighted Jaccard treats a dormant account the same as one posting 50 times per day, and doesn't necessarily reflect similarities in their user experience. To capture similarity in what senators *actually see*, compute a weighted version using post counts as weights:
+The follow Jaccard treats a dormant account the same as one posting 50 times per day, and doesn't necessarily reflect similarities in their user experience. To capture similarity in what senators *actually see*, define and compute a suitable Jaccard coefficient over post in their feed in the last 24 hours.
 
-```
-Weighted_Jaccard(A, B) = Σ min(w_i^A, w_i^B) / Σ max(w_i^A, w_i^B)
-```
-
-where `w_i^A` is the weight for account `i` in senator A's follows:
-- `w_i^A = post_count_i` if senator A follows account `i`
-- `w_i^A = 0` if senator A does not follow account `i`
-
-and `post_count_i` is the number of posts account `i` made in the last 24 hours (or the time window you collected).
-
-**Interpretation**: Two senators who both follow CNN but only one follows a rarely-posting local journalist will have high unweighted similarity but the weighted similarity better reflects their actual feed overlap.
-
-Each of these measures (Jaccard, weighted Jaccard) can be interpreted as similarity measures between the senators. Computing these measures for all the senators in the dataset forms two similarity matrices.
+Each of these measures (follow Jaccard, post Jaccard) can be interpreted as similarity measures between the senators. Computing these measures for all the senators in the dataset forms two similarity matrices.
 
 #### Visualization and analysis
 
-1. Create **two heatmaps**: one for unweighted Jaccard similarity, one for weighted Jaccard similarity. You may present these as two separate figures or side-by-side in a single figure for easy comparison.
+1. Create **two heatmaps**: one for follow Jaccard similarity, one for post Jaccard similarity. You may present these as two separate figures or side-by-side in a single figure for easy comparison.
 
 2. **Sort the rows and columns** so that similar senators are adjacent. Use hierarchical clustering to determine the ordering (see `scipy.cluster.hierarchy.linkage` and `dendrogram`), or (if you want to explore alternative visualization techniques) explore some other sorting algorithm. An unsorted heatmap with arbitrary row/column order is much harder to interpret — clusters appear scattered rather than as visible blocks along the diagonal. Use the same ordering for both heatmaps to enable direct comparison.
 
-3. **Compare and contrast the two matrices**: What do they show? Interpret any clustering patterns you see. Where do the two matrices differ? Senators with similar follows but different post-volume weighting might follow the same accounts but experience very different information environments based on posting frequency.
+3. **Compare and contrast the two matrices**: What do they show? Interpret any clustering patterns you see. Where do the two matrices differ? Senators with similar follows but different posts might follow the same accounts but experience very different information environments based on posting frequency.
 
-**Suggested questions to consider** (you don't need to answer all of these, but they may guide your interpretation): Do senators from the same state follow similar accounts? Do female senators follow systematically different accounts than male senators? Are there identifiable "information bubbles"? How does weighting by post volume change the similarity structure?
+**Suggested questions to consider** (you don't need to answer all or any of these, but they may guide your interpretation): Do senators from the same state follow similar accounts? Do female senators follow systematically different accounts than male senators? Are there identifiable "information bubbles"? How does weighting by post volume change the similarity structure?
 
 ### I.4 Reflection Questions
 
@@ -153,7 +142,7 @@ In this section we will look at the posts by senators themselves, and who replie
 
 ### II.1 Data Collection
 
-Write code to collect replies to senator posts. To ensure sufficient data for gender comparisons, collect reply data for **at least 10 female senators and at least 10 male senators** (the dataset contains 14 female and 28 male senators).
+Write code to collect replies to senator posts. To ensure sufficient data for gender comparisons, collect reply data for **at least 5 female senators and at least 5 male senators** (the dataset contains 14 female and 28 male senators), uniformly at random. If you can, take the time to run your code long enough to collect data for all the senators.
 
 For each senator in your sample:
 
@@ -174,7 +163,7 @@ Make an inference about the gender of repliers from their display names. Using t
 2. Look up the name's historical gender distribution
 3. Classify as female if >60% of registrations are female, male if >60% are male, otherwise unknown
 
-Report what fraction of repliers you can classify and discuss the limitations of this approach. Feel free to try to improve on this method (how does querying an LLM do?), but it is not a required part of the assignment.
+Report what fraction of repliers you can classify and discuss the limitations of this approach. Feel free to try to improve on this method (query an LLM?), but it is not a required part of the assignment.
 
 ### II.3 Homophily Measurement
 
@@ -202,14 +191,7 @@ Measure gender patterns in replies:
 
 Create a visualization showing the gender breakdown of repliers for female vs. male senators. Is there evidence of homophily?
 
-4. **Statistical significance**: Assess whether the observed homophily is statistically significant or could plausibly arise by chance.
-
-   **Guiding principles**:
-   - The null hypothesis is that replier gender is independent of senator gender (i.e., all senators draw from the same baseline distribution)
-   - Under this null, the observed difference from baseline follows a sampling distribution
-   - Consider: How many classifiable repliers do you have for each senator gender group? What's the standard error of a proportion with that sample size?
-   - A simple approach: compute a 95% confidence interval for each observed proportion using `SE = sqrt(p*(1-p)/n)`. If the confidence interval excludes the baseline, the difference is significant at p < 0.05
-   - Alternatively, use a chi-square test or proportion z-test to formally test whether the observed proportions differ from baseline
+4. **Statistical significance**: Assess whether the observed homophily is statistically significant or could plausibly arise by chance. There are many ways to structure this inquiry. Explain your approach. As a guiding principle, the null hypothesis is that replier gender is independent of senator gender (i.e., all senators draw from the same baseline distribution)
 
    Report whether your homophily findings are statistically significant and discuss what this means for your conclusions.
 
@@ -231,7 +213,7 @@ API limits frequently require analysis like this one to include caveats/hedges, 
 
 Include brief responses to these questions in your report:
 
-1. What are the key limitations of inferring gender from first names? Consider: international names, nicknames, organizational accounts, non-binary individuals, names that have shifted gender associations over time.
+1. What are the key limitations of inferring gender from first names?
 
 2. We focused on gender homophily. What other forms of homophily might be interesting to study on Bluesky (e.g., geographic, topical, temporal), and how would you operationalize them?
 
@@ -239,15 +221,11 @@ Include brief responses to these questions in your report:
 
 ---
 
-## Part III: Platform Selection Bias
+## Part III: Platform biases
 
-Our dataset contains 42 senators: 41 Democrats and 1 Independent. No Republican senators have verified Bluesky accounts. This complete partisan skew raises important questions about what we can learn from this analysis.
+1. Our dataset contains 42 senators: 41 Democrats and 1 Independent. No Republican senators have verified Bluesky accounts. This complete partisan skew raises important questions about what we can learn from this analysis. What does this tell us about the generalizability of any findings about "senators" or "political figures"? With zero Republicans, can we make any claims about partisan patterns?
 
-Include brief responses to these questions in your report:
-
-1. What does this tell us about the generalizability of any findings about "senators" or "political figures"? With zero Republicans, can we make any claims about partisan patterns?
-
-2. If we wanted to study partisan homophily (do Democrats engage more with Democrats?), what alternative approaches or data sources might we consider? Briefly research API access to other platforms.
+2. If we wanted to study partisan homophily (do Democrats engage more with Democrats?), what alternative approaches or data sources might we consider? Briefly research senator activity on other platforms and sketch out a plan for how you'd study partisan homophily.
 
 3. How might the partisan composition of Bluesky's overall user base affect the homophily patterns we observe, even when studying only gender?
 
@@ -257,15 +235,13 @@ Include brief responses to these questions in your report:
 
 Submit the following:
 
-1. **`collect_data.py`** — Script for all data collection (feeds and replies)
-2. **`analysis.py`** — Script for all analysis (recommendations, echo chambers, gender inference, homophily, reply timing). Running this script should regenerate all figures and tables.
-3. **Report (PDF, 4 pages max)** containing:
+1. **Report (PDF, 6 pages max)** containing:
    - "Senators You May Know" recommendation table and discussion
-   - Echo chamber / feed overlap analysis (both heatmaps)
+   - Feed overlap analysis (both heatmaps)
    - Homophily results with visualization
    - Reply timing analysis
    - Responses to reflection questions in Parts I, II, and III
-
+2. Any code you wrote, either as python scripts or notebooks
 ---
 
 ## Grading Rubric
@@ -273,64 +249,29 @@ Submit the following:
 | Component | Weight | Criteria |
 |-----------|--------|----------|
 | Data Collection | 15% | Correct API usage, rate limiting, handles edge cases |
-| Feed Analysis (Recommendations + Echo Chambers) | 20% | Correct algorithm, clear table/heatmaps, interpretation |
+| Feed Analysis (Recommendations + similarity) | 20% | Correct algorithm, clear table/heatmaps, interpretation |
 | Homophily Analysis | 20% | Sound methodology, appropriate statistics, visualization |
-| Reply Timing Analysis | 15% | Thoughtful comparison, addresses API limitations |
+| Reply Timing Analysis | 10% | Thoughtful comparison, addresses API limitations |
 | Written Questions | 20% | Depth of reflection, honest engagement with limitations |
-| Code & Report Quality | 10% | Clean code, clear writing, effective figures |
+| Code & Report Quality | 15% | Clean code, clear writing, effective figures |
 
 ---
 
 ## Technical Reference
 
-### API Patterns
+See `bluesky_helpers.py` for:
+- **API wrapper functions**: `get_profile()`, `get_follows()`, `get_all_follows()`, `get_author_feed()`, `get_post_thread()`
+- **Utility functions**: `parse_datetime()`, `is_within_hours()`, `load_senators()`, `save_json()`, `load_json()`
+- **Gender inference scaffolding**: `load_name_data()` and `infer_gender()` — you must implement these
 
-```python
-from bluesky_helpers import get_profile, get_all_follows, get_author_feed, get_post_thread
+Run `python bluesky_helpers.py` to test the API functions and see example usage.
 
-# Get accounts a senator follows
-follows = get_all_follows("schumer.senate.gov")  # handles pagination automatically
-
-# Get recent posts from an account
-feed = get_author_feed("schumer.senate.gov", limit=50)
-for item in feed['feed']:
-    post = item['post']
-    text = post['record']['text']
-    created = post['record']['createdAt']
-
-# Get replies to a post
-thread = get_post_thread(post['uri'])
-```
-
-### Parsing Timestamps
-
-```python
-from datetime import datetime, timezone, timedelta
-
-def parse_time(date_string):
-    return datetime.fromisoformat(date_string.replace('Z', '+00:00'))
-
-cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
-```
-
-### Gender Inference
-
-You need to implement gender inference functions. The helper file provides scaffolding:
-
-```python
-from bluesky_helpers import load_name_data, infer_gender
-
-# You must implement these functions!
-name_counts = load_name_data('female_names.tsv.gz', 'male_names.tsv.gz')
-gender = infer_gender("Jane Smith", name_counts)  # Should return 'F', 'M', or 'U'
-```
-
-See the docstrings in `bluesky_helpers.py` for implementation guidance.
+For official API documentation, see: [Bluesky API Reference](https://docs.bsky.app/docs/category/http-reference)
 
 ---
 
 ## Academic Integrity
 
-You may work in groups of up to 3 students. List all group members on your report and code files. You may use the provided helper code and consult API documentation. Do not share code with other groups.
+You may work in groups of up to 3 students. List all group members on your report and code files. You may use the provided helper code and consult API documentation. Do not share code with other groups. Describe your use of AI tools (AI is permitted).
 
 Good luck!
