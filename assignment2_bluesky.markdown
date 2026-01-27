@@ -7,7 +7,7 @@ layout: default
 
 ## Overview
 
-In this assignment, you'll investigate *[homophily](https://en.wikipedia.org/wiki/Homophily)* — the tendency for people to associate with similar others — on the Bluesky social network. You'll collect data using Bluesky's public API, analyze what senators see in their feeds, and measure whether reply patterns exhibit gender homophily.
+In this assignment, you'll analyze several aspects of Bluesky. You'll construct reverse-chronological feeds. You'll make simple follow recommendations. And you'll examine *[homophily](https://en.wikipedia.org/wiki/Homophily)* — the tendency for people to associate with similar others — in Bluesky replies. You'll collect data using Bluesky's public API, analyze what senators see in their feeds, and measure whether reply patterns exhibit gender homophily.
 
 The assignment has two parts:
 - **Part I**: Feed Analysis — Examine what U.S. senators see when they open Bluesky, and make follow recommendations for fellow senators.
