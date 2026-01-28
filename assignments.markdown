@@ -19,18 +19,19 @@ You should use Python 3. This is a zero point assignment. You should only need a
 
 ## Assignment 2
 
-**Due Date: TBD**
-<!--
-[Assignment details](assignment2)
--->
+**Due Date: Monday 2/16 11:59p**
+
+[Assignment details](assignment2_bluesky)
+
+
 ## Assignment 3
-**Due Date: TBD**
+**Due Date: Monday 3/2 11:59p**
 <!--
 [Assignment details](assignment3)
 -->
 
 ## Project
-**Due Date: TBD**
+**Due Dates: various**
 
 <!--
 [Assignment details](project)
