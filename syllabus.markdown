@@ -61,6 +61,7 @@ Weak ties:
 -->
 
 - Fleder, Hosanagar (2009) [Blockbuster culture's next rise or fall: The impact of recommender systems on sales diversity](https://pubsonline.informs.org/doi/10.1287/mnsc.1080.0974), Management Science.
+- Kaptein, Eckles (2010) [Selecting effective means to any end: futures and ethics of persuasion profiling](https://dl.acm.org/doi/10.1007/978-3-642-13226-1_10), Proceedings of the 5th international conference on Persuasive Technology.
 - Dandekar, Goel, Lee (2013) [Biased assimilation, homophily, and the dynamics of polarization](https://www.pnas.org/doi/10.1073/pnas.1217220110), PNAS.
 - Abdollahpouri, Burke, Mobasher (2017) [Controlling popularity bias in learning-to-rank recommendation](https://dl.acm.org/doi/10.1145/3109859.3109912), RecSys.
 - Chaney, Stewart, Engelhardt (2018) [How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility](https://dl.acm.org/doi/10.1145/3240323.3240370), RecSys.
