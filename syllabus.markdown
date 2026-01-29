@@ -56,9 +56,6 @@ Weak ties:
 - Jahani et al. (2023) [Long ties, disruptive life events, and economic prosperity](https://www.pnas.org/doi/10.1073/pnas.2211062120), PNAS.
 
 ## Week 4 -- Product/media recommendations (M 2/2, W 2/4) ##
-<!-- 
-**Tues 10/10 & Thurs 10/12**
--->
 
 - Fleder, Hosanagar (2009) [Blockbuster culture's next rise or fall: The impact of recommender systems on sales diversity](https://pubsonline.informs.org/doi/10.1287/mnsc.1080.0974), Management Science.
 - Kaptein, Eckles (2010) [Selecting effective means to any end: futures and ethics of persuasion profiling](https://dl.acm.org/doi/10.1007/978-3-642-13226-1_10), Proceedings of the 5th international conference on Persuasive Technology.
@@ -71,9 +68,6 @@ Weak ties:
 - Hosseinmardi et al. (2024) [Causally estimating the effect of YouTube's recommender system using counterfactual bots](https://www.pnas.org/doi/10.1073/pnas.2313377121), PNAS.
 
 ## Week 5 -- Search engines (M 2/9, W 2/11) ##
-<!--
- **Tues 10/17 & Thurs 10/19**
--->
 
 - Chakrabarti, Frieze, Vera (2005) [The influence of search engines on preferential attachment](https://dl.acm.org/doi/10.5555/1070432.1070533), SODA.
 - Salganik, Dodds, Watts (2006) [Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market](https://www.science.org/doi/10.1126/science.1121066), Science.
