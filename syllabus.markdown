@@ -63,9 +63,11 @@ Weak ties:
 - Abdollahpouri, Burke, Mobasher (2017) [Controlling popularity bias in learning-to-rank recommendation](https://dl.acm.org/doi/10.1145/3109859.3109912), RecSys.
 - Chaney, Stewart, Engelhardt (2018) [How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility](https://dl.acm.org/doi/10.1145/3240323.3240370), RecSys.
 - Anderson et al. (2020) [Algorithmic Effects on the Diversity of Consumption on Spotify](https://dl.acm.org/doi/10.1145/3366423.3380281), WWW.
+- Agan, Davenport, Ludwig, Mullainathan (2023) [Automating automaticity: How the context of human choice affects the extent of algorithmic bias](https://www.nber.org/papers/w30981), NBER working paper.
 - Kleinberg, Raghavan, Mullainathan (2022) [The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization](https://dl.acm.org/doi/10.1145/3490486.3538580), EC.
 - Chen et al. (2023) [Subscriptions and external links help drive resentful users to alternative and extremist YouTube channels](https://www.science.org/doi/10.1126/sciadv.add8080), Science Advances.
 - Hosseinmardi et al. (2024) [Causally estimating the effect of YouTube's recommender system using counterfactual bots](https://www.pnas.org/doi/10.1073/pnas.2313377121), PNAS.
+- Higley et al. (2022) [Building and Deploying a Multi-Stage Recommender System with Merlin](https://dl.acm.org/doi/10.1145/3523227.3551468), RecSys Demonstration track.
 
 ## Week 5 -- Search engines (M 2/9, W 2/11) ##
 
