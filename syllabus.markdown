@@ -94,6 +94,8 @@ Guest lecture: Prof. Jamie Tucker-Foltz, Yale SOM (2/18)
 - Huszar et al. (2021) [Algorithmic amplification of politics on Twitter](https://www.pnas.org/doi/10.1073/pnas.2025334119), PNAS.
 - Jia et al. (2024) [Embedding Democratic Values into Social Media AIs via Societal Objective Functions](https://dl.acm.org/doi/10.1145/3637363), CSCW.
 - Piccardi et al. (2025) [Social Media Algorithms Can Shape Affective Polarization via Exposure to Antidemocratic Attitudes and Partisan Animosity](https://www.science.org/doi/10.1126/science.adu5584), Science.
+- Twitter (2023) [Twitter recommendation algorithm](https://github.com/twitter/the-algorithm), Github.
+- X (2025) [X For You Feed Algorithm](https://github.com/xai-org/x-algorithm), Github.
 
 Algorithm aversion:
 - Dietvorst, Simmons, Massey (2014) [Algorithm aversion: People erroneously avoid algorithms after seeing them err](https://psycnet.apa.org/record/2014-20962-001), Journal of Experimental Psychology.
@@ -113,6 +115,7 @@ Birdwatch aka Community Notes:
 - Slaughter et al. (2025) [Community notes reduce engagement with and diffusion of false information online](https://www.pnas.org/doi/10.1073/pnas.2503413122), PNAS.
 - Li et al. (2025) [Scaling Human Judgment in Community Notes with LLMs](https://tsjournal.org/index.php/jots/article/view/115), Journal of Online Trust and Safety.
 - Vraga (2025) [Understanding the strengths and limitations of community-based responses to misinformation](https://www.pnas.org/doi/10.1073/pnas.2524004122), PNAS.
+- Renault, Mosleh, Rand (2026) [@Grok Is This True? LLM-Powered Fact-Checking on Social Media](https://osf.io/preprints/psyarxiv/85quw_v2), pre-print.
 
 
 Misinformation:
