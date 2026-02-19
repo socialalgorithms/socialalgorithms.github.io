@@ -57,8 +57,8 @@ You may include extra metadata columns (for example: `model`, `temperature`, `to
 Use the standalone judge script, though note it needs your `OPENAI_API_KEY`. For example:
 
 ```bash
-python3 starter/judge.py answers_modelA.csv
-python3 starter/judge.py answers_modelA.csv answers_modelB.csv answers_modelC.csv --out scores.csv --details judged_rows.csv
+python3 judge.py answers_modelA.csv
+python3 judge.py answers_modelA.csv answers_modelB.csv answers_modelC.csv --out scores.csv --details judged_rows.csv
 ```
 
 Behavior of the judge script:
@@ -209,7 +209,7 @@ Phase A: generate answers
 
 Phase B: judge and score
 
-1. Run `starter/judge.py` on one or more answer files. Reminder that will require your OpenAI API key.
+1. Run `judge.py` on one or more answer files. Reminder that will require your OpenAI API key.
 2. The judge script will:
    - call a GPT judge for validity (`yes`/`no`)
    - normalize answers
