@@ -131,11 +131,11 @@ If your machine is stronger, optional larger models include:
 
 ### Starter code
 
-Starter code is provided in:
+Starter code is provided on [github](https://github.com/socialalgorithms/socialalgorithms.github.io/tree/main/assets/assignment3): 
 
 - `assets/assignment3/assignment3_starter.py`
 - `assets/assignment3/judge.py`
-- `assets/assignment3/requirements.txt`
+- `assets/assignment3/scattergories_questions.csv`
 
 Quick start:
 
