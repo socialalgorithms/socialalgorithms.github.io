@@ -26,12 +26,11 @@ You should use Python 3. This is a zero point assignment. You should only need a
 
 ## Assignment 3
 **Due Date: Monday 3/2 11:59p**
-<!--
+
 [Assignment details](assignment3)
--->
 
 ## Project
-**Due Dates: various**
+**Due Dates: several**
 
 <!--
 [Assignment details](project)
