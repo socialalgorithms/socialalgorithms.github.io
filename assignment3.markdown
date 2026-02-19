@@ -140,7 +140,7 @@ Starter code is provided on [github](https://github.com/socialalgorithms/sociala
 Quick start:
 
 1. `python3 -m venv .venv && source .venv/bin/activate`
-2. Set API key in your env: `export OPENAI_API_KEY=...`
+2. Set API key in `judge.py` (or set it as part of your env, `export OPENAI_API_KEY=...`).
 3. Generate one or more answer CSV files from your player experiments (for example with `assignment3_starter.py generate-answers`, or your own script/notebook).
 4. Run judging/scoring as a separate pass:
    - `python3 judge.py outputs/answers_modelA.csv outputs/answers_modelB.csv --out outputs/scores.csv --details outputs/judged_rows.csv`

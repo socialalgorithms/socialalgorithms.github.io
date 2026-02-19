@@ -2,9 +2,9 @@
 """Judge Scattergories answer files with an OpenAI model.
 
 Usage:
-    python3 starter/judge.py answers_a.csv
-    python3 starter/judge.py answers_a.csv answers_b.csv --out scores.csv
-    python3 starter/judge.py answers_a.csv answers_b.csv answers_c.csv --out scores.csv --details judged_rows.csv
+    python3 judge.py answers_a.csv
+    python3 judge.py answers_a.csv answers_b.csv --out scores.csv
+    python3 judge.py answers_a.csv answers_b.csv answers_c.csv --out scores.csv --details judged_rows.csv
 """
 
 from __future__ import annotations
